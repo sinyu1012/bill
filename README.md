@@ -12,3 +12,8 @@
 - 统计总数的功能；
 - 可切换主题；
 - 软件说明；
+
+![](https://github.com/sinyu1012/bill/blob/master/images/1.jpg)
+![](https://github.com/sinyu1012/bill/blob/master/images/2.jpg)
+![](https://github.com/sinyu1012/bill/blob/master/images/3.jpg)
+![](https://github.com/sinyu1012/bill/blob/master/images/4.jpg)
