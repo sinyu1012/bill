@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="button">@color/colorPrimary</item>
+    </style>
+    <!--蓝色主题-->
+    <style  name="App5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/paleturquoise</item>
+        <item name="colorPrimaryDark">@color/blue_btn_bg_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="button">@color/paleturquoise</item>
+    </style>
+
+    <!--黄色主题-->
+    <style  name="App4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="button">@color/orange</item>
+    </style>
+    <!--红色主题-->
+    <style name="App2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/rise_number_text_color_red</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="button">@color/red</item>
+    </style>
+    <!--红色主题-->
+    <style name="App3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/palegreen</item>
+        <item name="colorPrimaryDark">@color/rise_number_text_color_red</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="button">@color/palegreen</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <!-- 键盘button -->
+    <style name="key_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@drawable/keyboard</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+</resources>

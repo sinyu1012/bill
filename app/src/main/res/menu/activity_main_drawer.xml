@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mainpage"
+            android:icon="@drawable/widget_bar_home_normal"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_billInfo"
+            android:icon="@drawable/bill_his"
+            android:title="历史账单" />
+
+    </group>
+
+    <item android:title="系统">
+        <menu>
+            <item
+                android:id="@+id/nav_theme"
+                android:title="切换主题" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="关于" />
+            <item
+                android:id="@+id/nav_setting"
+                android:title="设置" />
+        </menu>
+    </item>
+
+</menu>

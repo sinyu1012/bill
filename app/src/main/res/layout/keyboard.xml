@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="mainPageModel"
+            type="com.wecanstudio.xdsjs.save.ViewModel.MainPageViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/key_btn_style"
+                    android:onClick="@{mainPageModel.onNumKeyClicked}"
+                    android:tag="1"
+                    android:text="1" />
+
+                <ImageView
+                    android:layout_width="0.1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_save" />
+
+                <Button
+                    style="@style/key_btn_style"
+                    android:onClick="@{mainPageModel.onNumKeyClicked}"
+                    android:tag="2"
+                    android:text="2" />
+
+                <ImageView
+                    android:layout_width="0.1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_save" />
+
+                <Button
+                    style="@style/key_btn_style"
+                    android:onClick="@{mainPageModel.onNumKeyClicked}"
+                    android:tag="3"
+                    android:text="3" />
+
+                <ImageView
+                    android:layout_width="0.1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_save" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_delete"
+                    android:gravity="center"
+                    android:onClick="@{mainPageModel.onDeleteKeyClicked}" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_save" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/key_btn_style"
+                    android:onClick="@{mainPageModel.onNumKeyClicked}"
+                    android:tag="4"
+                    android:text="4" />
+
+                <ImageView
+                    android:layout_width="0.1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_save" />
+
+                <Button
+                    style="@style/key_btn_style"
+                    android:onClick="@{mainPageModel.onNumKeyClicked}"
+                    android:tag="5"
+                    android:text="5" />
+
+                <ImageView
+                    android:layout_width="0.1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_save" />
+
+                <Button
+                    style="@style/key_btn_style"
+                    android:onClick="@{mainPageModel.onNumKeyClicked}"
+                    android:tag="6"
+                    android:text="6" />
+
+                <ImageView
+                    android:layout_width="0.1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_save" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_plus"
+                    android:gravity="center"
+                    android:onClick="@{mainPageModel.onNumKeyClicked}"
+                    android:tag="+" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_save" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            style="@style/key_btn_style"
+                            android:onClick="@{mainPageModel.onNumKeyClicked}"
+                            android:tag="7"
+                            android:text="7" />
+
+                        <ImageView
+                            android:layout_width="0.1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/gray_save" />
+
+                        <Button
+                            style="@style/key_btn_style"
+                            android:onClick="@{mainPageModel.onNumKeyClicked}"
+                            android:tag="8"
+                            android:text="8" />
+
+                        <ImageView
+                            android:layout_width="0.1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/gray_save" />
+
+                        <Button
+                            style="@style/key_btn_style"
+                            android:onClick="@{mainPageModel.onNumKeyClicked}"
+                            android:tag="9"
+                            android:text="9" />
+
+                        <ImageView
+                            android:layout_width="0.1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/gray_save" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_save" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            style="@style/key_btn_style"
+                            android:onClick="@{mainPageModel.onClearKeyClicked}"
+                            android:text="C" />
+
+                        <ImageView
+                            android:layout_width="0.1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/gray_save" />
+
+                        <Button
+                            style="@style/key_btn_style"
+                            android:onClick="@{mainPageModel.onNumKeyClicked}"
+                            android:tag="0"
+                            android:text="0" />
+
+                        <ImageView
+                            android:layout_width="0.1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/gray_save" />
+
+                        <Button
+                            style="@style/key_btn_style"
+                            android:onClick="@{mainPageModel.onNumKeyClicked}"
+                            android:tag="."
+                            android:text="." />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_submit"
+                    android:gravity="center"
+                    android:onClick="@{mainPageModel.onSubmitKeyClicked}" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
