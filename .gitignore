@@ -10,7 +10,6 @@
 /captures
 *.apk
 *.ap_
-
 *.dex
 
 local.properties
@@ -23,12 +22,7 @@ build/
 bin/
 gen/
 
-.signing/
-
 *.iml
-Thumbs.db
-
-.DS_Store
 
 .classpath
 .project
