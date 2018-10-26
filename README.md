@@ -21,8 +21,8 @@ ViewModel：View和Model之间的链接桥梁，处理视图逻辑。
 - 可切换主题；
 - 软件说明；
 
-![](https://github.com/sinyu1012/bill/blob/master/images/1.jpg)
+<img width="300" height="550" src="https://github.com/sinyu1012/bill/blob/master/images/1.jpg"/>  
 
-![](https://github.com/sinyu1012/bill/blob/master/images/2.jpg)
+<img width="300" height="550" src="https://github.com/sinyu1012/bill/blob/master/images/2.jpg"/>  
 
-![](https://github.com/sinyu1012/bill/blob/master/images/4.jpg)
+<img width="300" height="550" src="https://github.com/sinyu1012/bill/blob/master/images/4.jpg"/>
