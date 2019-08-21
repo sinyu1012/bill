@@ -1,4 +1,4 @@
-# 时光记账 #
+# 记账APP #
 ## 用于练手项目，使用MVVM架构， ##
 MVVM：  
 Model：数据模型层。包含业务逻辑和校验逻辑。
@@ -20,9 +20,3 @@ ViewModel：View和Model之间的链接桥梁，处理视图逻辑。
 - 统计总数的功能；
 - 可切换主题；
 - 软件说明；
-
-<img width="300" height="550" src="https://github.com/sinyu1012/bill/blob/master/images/1.jpg"/>  
-
-<img width="300" height="550" src="https://github.com/sinyu1012/bill/blob/master/images/2.jpg"/>  
-
-<img width="300" height="550" src="https://github.com/sinyu1012/bill/blob/master/images/4.jpg"/>
